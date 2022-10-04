@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstOrderCheck">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center_horizontal"
+            android:text="ΠΡΩΤΟΒΑΘΜΙΑ ΤΑΧΕΙΑ ΑΥΤΟΨΙΑ"
+            android:textColor="#EA0909"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:id="@+id/sintetagmenes_ktiriou"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΔΗΜΟΣ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dimos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="ΣΑΜΟΥ" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΑΡΙΘΜΟΣ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/arithmos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="12" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΟΔΟΣ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/odos"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:autofillHints=""
+            android:hint="ΓΟΡΓΥΡΑΣ" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΠΕΡΙΟΧΗ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/perioxi"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="ΝΕΟ ΚΑΡΛΟΒΑΣΙ" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΟΝΟΜΑ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/onoma"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="ΟΝΟΜΑ" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΕΠΩΝΥΜΟ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/eponimo"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="ΖΙΩΖΑΣ" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="ΤΗΛΕΦΩΝΟ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tilefono"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="2273045654" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="# ΟΡΟΦΩΝ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/arithmos_orofon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="3" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="# ΔΙΑΜΕΡΙΣΜΑΤΩΝ"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/arithmos_diamerismaton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.7"
+            android:hint="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <Spinner
+            android:id="@+id/dynamic_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:contextClickable="true"
+            android:textAlignment="center"
+            android:tooltipText="ΕΠΕΛΕΞΕ ΕΝΑ ΑΠΟ ΤΑ ΠΑΡΑΚΑΤΩ"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/katoikisimo"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:id="@+id/katoikisimo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ΚΑΤΟΙΚΙΣΙΜΟ"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/mi_katoikisimo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ΜΗ ΚΑΤΟΙΚΙΣΙΜΟ"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+
+                android:textSize="20dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip">
+
+        <Button
+            android:id="@+id/first_order_final_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="ΟΡΙΣΤΙΚΗ ΥΠΟΒΟΛΗ"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

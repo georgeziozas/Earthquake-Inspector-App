@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704363933027",
+    "project_id": "earthquake-inspector-app",
+    "storage_bucket": "earthquake-inspector-app.appspot.com",
+    "databaseURL": "https://earthquake-inspector-app-default-rtdb.europe-west1.firebasedatabase.app/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704363933027:android:0c2f9b44961a972e193756",
+        "android_client_info": {
+          "package_name": "com.example.earthquake_inspector_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704363933027-idnnihhnivn47do3pca99qglhj9nqq8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd2Wn87rnZAWd14ImOzBF_J1A-A_s2x4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704363933027-idnnihhnivn47do3pca99qglhj9nqq8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

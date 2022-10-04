@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Earthquake_Inspector_App</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZ2lvemlvIiwiYSI6ImNranEyeWc2cjNjc3IycW83eGtzdzV1dnAifQ.V-2JxrTSSLAU_oBZOweFww</string>
+    <string name="user_location_permission_explanation">do you give permission to show your location?</string>
+    <string name="user_location_permission_not_granted">permission granted</string>
+    <string-array name="brew_array">
+        <item>Κατοικία σε χρήση</item>
+        <item>Κατοικία εγκαταλελειμένη</item>
+        <item>Σταύλος/Αποθήκη</item>
+        <item>Επαγγελματικός χώρος</item>
+        <item>Σχολείο</item>
+        <item>Ξενοδοχείο</item>
+    </string-array>
+</resources>
